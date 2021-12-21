@@ -33,7 +33,7 @@ class ContactDetailsView extends StatelessWidget {
         body: ListView(
           children: [
             const CircleAvatar(
-                radius: 70, backgroundImage: NetworkImage('https://media.istockphoto.com/photos/happiness-and-wellbeing-picture-id1283599879')),
+                radius: 70, backgroundImage: NetworkImage('https://media.istockphoto.com/photos/for-fast-and-efficient-work-use-cutting-edge-technology-picture-id1264056783')),
             const SizedBox(
               height: 25,
             ),

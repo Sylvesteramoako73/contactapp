@@ -63,7 +63,7 @@ class HomeView extends StatelessWidget {
       "phone": "0245671832",
       "email": "not available ",
       "country": "Ghana",
-      "region": "Sekondi"
+      "region": "Sekondi-western"
     },
     {
       "name": "Mummy",
@@ -97,7 +97,7 @@ class HomeView extends StatelessWidget {
           Center(
             child: CircleAvatar(
               radius: 25,
-              backgroundImage: AssetImage('assets/pic1.jpg'),
+              backgroundImage:NetworkImage('https://media.istockphoto.com/photos/beautiful-africanamerican-newborn-little-boy-just-a-few-weeks-old-in-picture-id1292449394'),
             ),
           )
         ],
@@ -143,7 +143,7 @@ class HomeView extends StatelessWidget {
                       }));
                     },
                     leading:const CircleAvatar(
-                      backgroundImage: NetworkImage('https://media.istockphoto.com/photos/little-skateboarder-picture-id1283599893'),
+                      backgroundImage: NetworkImage('https://media.istockphoto.com/photos/business-lifestyle-trader-in-glasses-sitting-at-cafe-monitoring-on-picture-id1160865762'),
                       radius: 25,
                     ),
                     title: const Text(
@@ -205,7 +205,7 @@ class HomeView extends StatelessWidget {
                         }));
                       },
                       leading: const CircleAvatar(
-                        backgroundImage: AssetImage('assets/car.jpg'),
+                        backgroundImage: NetworkImage('https://media.istockphoto.com/photos/he-is-on-top-of-his-game-picture-id1154030325'),
                         radius: 25,
                       ),
                       title: Text(
