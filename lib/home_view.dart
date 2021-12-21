@@ -31,51 +31,51 @@ class HomeView extends StatelessWidget {
       "region": "Pernambuco"
     },
     {
-      "name": "Malcolm Mosley",
-      "phone": "1-788-315-2223",
-      "email": "congue@yahoo.ca",
-      "country": "Brazil",
-      "region": "Gilgit Baltistan"
+      "name": "frelina May",
+      "phone": "0254761342",
+      "email": "helinamvhim@gmail.com",
+      "country": "Ghana",
+      "region": "Tarkwa"
     },
     {
-      "name": "Fuller Hopper",
-      "phone": "1-975-831-3275",
-      "email": "accumsan.interdum@hotmail.edu",
-      "country": "Australia",
-      "region": "Puglia"
+      "name": "Priscilla Gyan",
+      "phone": "glowman@gmail.com",
+      "email": "hannamangyan@gmail.com",
+      "country": "Ghana",
+      "region": "Koforidua"
     },
     {
-      "name": "Zeph Oneil",
-      "phone": "1-253-315-7668",
-      "email": "aliquet.vel.vulputate@google.edu",
-      "country": "Costa Rica",
-      "region": "Niger"
+      "name": "Authority",
+      "phone": "0267186523",
+      "email": "authorityman@gmail.com",
+      "country": "Ghana",
+      "region": "Eastern Region"
     },
     {
-      "name": "Samson William",
-      "phone": "1-943-239-6547",
-      "email": "donec@aol.ca",
-      "country": "Canada",
+      "name": "Bernard Quayson",
+      "phone": "0244764312",
+      "email": "donec@aol.gh",
+      "country": "Guinea",
       "region": "Kayseri"
     },
     {
-      "name": "Donna Cash",
-      "phone": "1-572-257-7378",
-      "email": "luctus.sit.amet@aol.couk",
-      "country": "Costa Rica",
-      "region": "Radnorshire"
+      "name": "Solomon Kwofie",
+      "phone": "0245671832",
+      "email": "not available ",
+      "country": "Ghana",
+      "region": "Sekondi"
     },
     {
-      "name": "Lani Morgan",
-      "phone": "808-2443",
-      "email": "iaculis@protonmail.com",
-      "country": "Sweden",
-      "region": "Putumayo"
+      "name": "Mummy",
+      "phone": "0572431657",
+      "email": "victoriamasai@gamail.com",
+      "country": "Ghana",
+      "region": "takoradi"
     },
     {
-      "name": "Amethyst Hinton",
-      "phone": "1-834-696-1568",
-      "email": "mi.lacinia@hotmail.edu",
+      "name": "Sis May",
+      "phone": "0567278179",
+      "email": "terkkwa1@gmail.com",
       "country": "Sweden",
       "region": "Ninh Thuận"
     }
@@ -135,15 +135,15 @@ class HomeView extends StatelessWidget {
                     onTap: () {
                       Navigator.push(context,MaterialPageRoute(builder:  (context){
                         return ContactDetailsView(
-                          contact: Contact(name: 'Wisdom', 
-                          phone: '+233 24 43 84 390', 
-                          email: 'wiseletson@gmail.com', 
+                          contact: Contact(name: 'Sylvester', 
+                          phone: '+233 55 700 1326', 
+                          email: 'sylvesteramoako73@gmail.com', 
                          country: 'Ghana', 
-                          region: 'Greate Accra'));
+                          region: 'Western Region'));
                       }));
                     },
                     leading:const CircleAvatar(
-                      backgroundImage: AssetImage('assets/car.jpg'),
+                      backgroundImage: NetworkImage('https://media.istockphoto.com/photos/little-skateboarder-picture-id1283599893'),
                       radius: 25,
                     ),
                     title: const Text(
